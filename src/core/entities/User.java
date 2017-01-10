@@ -1,5 +1,7 @@
 package entities;
 
+import java.util.ArrayList;
+
 public class User {
 	private String name;
 	private String lastname;
@@ -7,7 +9,7 @@ public class User {
 	private String password;
 	
 	public User() {
-		// TODO Auto-generated constructor stub
+		ArrayList<Droits> droit = new ArrayList<>();
 	}
 	
 	public User(String name, String lastname, String login, String password) {
