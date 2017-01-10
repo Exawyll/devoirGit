@@ -1,10 +1,16 @@
 package entities;
 
+import java.util.ArrayList;
+
 public class User {
 	private String name;
 	private String lastname;
 	private String login;
 	private String password;
+	
+	public User() {
+		ArrayList<Droits> droit = new ArrayList<>();
+	}
 	
 	public String getName() {
 		return name;
