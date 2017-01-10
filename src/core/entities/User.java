@@ -6,6 +6,17 @@ public class User {
 	private String login;
 	private String password;
 	
+	public User() {
+		// TODO Auto-generated constructor stub
+	}
+	
+	public User(String name, String lastname, String login, String password) {
+		this.name = name;
+		this.lastname = lastname;
+		this.login = login;
+		this.password = password;
+	}
+
 	public String getName() {
 		return name;
 	}
