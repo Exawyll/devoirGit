@@ -1,0 +1,57 @@
+commit 1402f024dc92a62510a989a2a5b276cc1a0c7244
+Author: Wylliam <wylliam.delaunay@gmail.com>
+Date:   Tue Jan 10 16:27:24 2017 +0100
+
+    Revert "Add User class"
+    
+    This reverts commit e93fea9a9e57318d879a769d4f9da1d04a6b3659.
+
+commit c3f66d3b899e232050f7ef6bf9a5cbe0dce6c231
+Merge: 4cd4b14 2f4a7b6
+Author: Wylliam <wylliam.delaunay@gmail.com>
+Date:   Tue Jan 10 16:20:24 2017 +0100
+
+    Merge branch 'dev' of https://github.com/Exawyll/devoirGit into dev
+
+commit 2f4a7b6e202e9353db59e497a279f7691206553a
+Merge: 5ff9ba1 04aef69
+Author: DANIEL-Dereck <daniel.dereck@gmail.com>
+Date:   Tue Jan 10 16:19:00 2017 +0100
+
+    Merge branch 'danielDereck' into dev
+
+commit 04aef69a336b10086940b097bd52d1c11af03c30
+Author: DANIEL-Dereck <daniel.dereck@gmail.com>
+Date:   Tue Jan 10 16:16:38 2017 +0100
+
+    Add class Droits
+
+commit 4cd4b14ed396b07c63268b0f8d804bbed33959c2
+Author: Wylliam <wylliam.delaunay@gmail.com>
+Date:   Tue Jan 10 16:15:03 2017 +0100
+
+    entry point
+
+commit 5ff9ba1501e108de6bd69da2d85e32a062167383
+Author: Wylliam <wylliam.delaunay@gmail.com>
+Date:   Tue Jan 10 16:05:01 2017 +0100
+
+    Add constructor
+
+commit 7a88c497df97ce14c73ef0b97053927789c06a42
+Author: Wylliam <wylliam.delaunay@gmail.com>
+Date:   Tue Jan 10 16:00:19 2017 +0100
+
+    Add copyright
+
+commit e93fea9a9e57318d879a769d4f9da1d04a6b3659
+Author: Wylliam <wylliam.delaunay@gmail.com>
+Date:   Tue Jan 10 15:58:39 2017 +0100
+
+    Add User class
+
+commit 304e6580f6265c9ff1a5e6d5ea49004373076947
+Author: Wylliam <wylliam.delaunay@gmail.com>
+Date:   Tue Jan 10 15:44:52 2017 +0100
+
+    First tree folders
