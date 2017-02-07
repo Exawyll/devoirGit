@@ -30,14 +30,17 @@ CREATE TABLE User(
         lastname  Varchar (25) ,
         login     Varchar (25) ,
         password  Varchar (25) ,
+        numEmp    Varchar (25) NOT NULL ,
         id_Droits Int ,
-        PRIMARY KEY (id )
+        PRIMARY KEY (id ) ,
+        UNIQUE (numEmp )
 )ENGINE=InnoDB;
 
 ALTER TABLE User ADD CONSTRAINT FK_User_id_Droits FOREIGN KEY (id_Droits) REFERENCES Droits(id);
 
-INSERT INTO Droits VALUES (1, '1', 'Homme', 'Fort', 'DDCorp');
-INSERT INTO Droits VALUES (2, '2', 'Citoyen', 'Faible', 'WDCorp');
 
-INSERT INTO User VALUES (1, 'Dereck','Daniel','ddaniel','BonJoir', 1);
-INSERT INTO User VALUES (2, 'Wylliam','Delaunay','wdelaun','BonDour', 2);
+--INSERT INTO Droits VALUES (1, '1', 'Homme', 'Fort', 'DDCorp');
+--INSERT INTO Droits VALUES (2, '2', 'Citoyen', 'Faible', 'WDCorp');
+
+--INSERT INTO User VALUES (1, 'Dereck','Daniel','ddaniel','BonJoir', 1);
+--INSERT INTO User VALUES (2, 'Wylliam','Delaunay','wdelaun','BonDour', 2);
