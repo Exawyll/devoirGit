@@ -1,0 +1,1 @@
+du texte à destination du client pour lui indiquer que l'application n'est pas encore dans un états stable, sur la branche "master".
