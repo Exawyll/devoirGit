@@ -1,3 +1,5 @@
+package core;
+
 import entities.Droits;
 import entities.User;
 
