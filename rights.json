@@ -1,0 +1,16 @@
+[{	
+	"droits1": {
+		"id":"1",
+		"niveau":"1",
+		"severite":"fort",
+		"nom":"homme",
+		"societe":"BonDour"
+	},
+	"droits2": {
+		"id":"2",
+		"niveau":"2",
+		"severite":"faible",
+		"nom":"citoyen",
+		"societe":"WDcorp"
+	}
+}]
