@@ -9,7 +9,7 @@ public class Configuration {
 	 * Constructeur
 	 */
 	public Configuration() {
-		// TODO Auto-generated constructor stub
+		
 	}
 
 	/*******************************************

@@ -1,12 +1,15 @@
 package core;
 
+import java.util.ArrayList;
+
+import jdbc.ConfigurationJdbc;
 import json.JsonManager;
-import utils.Configuration;
 
 public class Main {
 		
 	public static void main(String[] args) {
-		JsonManager.getInstance().readFromFile("conf.prog", "/", Configuration.class);
+		ArrayList<ConfigurationJdbc> list = new ArrayList<ConfigurationJdbc>();
+		list = JsonManager.getInstance().readFromFile("conf.prog", ConfigurationJdbc.class);
 		
 	}
 }
